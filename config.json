@@ -1,0 +1,25 @@
+{
+  "development" : {
+    "port": 6969,
+    "hostname" : "surfn.kernighan.dev",
+    "NODE_ENV" : "development",
+    "session_secret": "hidden_horse_is_brilliant_friend",
+    "DB_FILEPATH": "./data",
+    "DB_FILENAME": "surfn.db",
+    "db": {
+      "title": "sqlite3",
+      "db": "surfn"
+    }
+  },
+  "production" : {
+    "port": 80,
+    "hostname": "surfn.htmldrum.com",
+    "NODE_ENV": "production",
+    "session_secret": "try_catching_the_lost_monkey_child",
+    "db": {
+      "user": "",
+      "pass": "",
+      "port": ""
+    }
+  }
+}

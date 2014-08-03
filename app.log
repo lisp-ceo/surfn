@@ -1,0 +1,6 @@
+127.0.0.1 - - [Sun, 03 Aug 2014 21:54:41 GMT] "POST /login HTTP/1.1" 302 72 "http://localhost:6969/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+127.0.0.1 - - [Sun, 03 Aug 2014 21:54:41 GMT] "GET /profile HTTP/1.1" 200 157 "http://localhost:6969/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+192.168.1.7 - - [Sun, 03 Aug 2014 21:55:34 GMT] "GET /favicon.ico HTTP/1.1" 404 24 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36"
+192.168.1.5 - - [Sun, 03 Aug 2014 21:55:38 GMT] "GET /favicon.ico HTTP/1.1" 404 24 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"
+192.168.1.5 - - [Sun, 03 Aug 2014 21:55:49 GMT] "POST /login HTTP/1.1" 302 72 "http://192.168.1.7:6969/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"
+192.168.1.5 - - [Sun, 03 Aug 2014 21:55:49 GMT] "GET /profile HTTP/1.1" 200 157 "http://192.168.1.7:6969/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/36.0.1985.125 Safari/537.36"
